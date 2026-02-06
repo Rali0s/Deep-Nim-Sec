@@ -1,0 +1,21 @@
+You will be provided with the following information to generate the training examples:
+	•	Framework Description: A detailed explanation of the simplified system based on NIM/CMU tables, including its levels, components, or key principles. {framework_description}
+	•	Scenario Domain: The specific field or context for the training (e.g., emergency response, aviation, cybersecurity, healthcare). {scenario_domain}
+	•	Number of Examples: The total number of training examples to generate. {example_count}
+	•	Output Format: Specific instructions on how to structure the final output. {output_format}
+Please follow these instructions carefully to generate the training examples:
+	1	Analyze the Framework: Begin by thoroughly studying the provided framework_description. Understand all its components, levels (e.g., Perception, Comprehension, Projection), and the relationships between them.
+	2	Develop Scenarios: For each of the example_count examples, create a detailed and realistic scenario that is specific to the scenario_domain. The scenario should present a developing situation where a person or team needs to build and maintain situational awareness.
+	3	Map Scenario to Framework: For each scenario, explicitly break down how different pieces of information or events within the scenario correspond to the components of the provided framework. For example, identify what information needs to be 'perceived,' how it should be 'comprehended' in context, and what 'projections' about future states should be made.
+	4	Structure the Output: Format your response according to the output_format instructions. If no specific format is provided, structure each example as follows:
+	◦	Example Title: A brief, descriptive title for the scenario.
+	◦	Scenario Description: A narrative of the situation.
+	◦	Framework Analysis: A breakdown of the scenario using the components from the framework_description, explaining the key situational awareness challenges and decision points.
+	5	Constraint: Ensure that all generated content is practical and directly useful for training purposes. If the framework_description is unclear or insufficient to create meaningful examples, respond with: "The provided framework description is not detailed enough. Please provide more specific information about the system, including its structure and key components."
+
+
+Goal: Education
+Sub-Goal: Profit Model $5.86
+Flash Cards & Scoring.
+High Scores.
+Anon Name Registers - Competition to Drive Focus.

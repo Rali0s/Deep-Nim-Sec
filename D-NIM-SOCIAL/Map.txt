@@ -1,0 +1,54 @@
+REPLIT/FIGMA DESIGN & BUILD SPECIFICATION: SPECTRUM OS CONSOLE
+SPECIFICATION 001-A: FRONT-END VISUALIZATION PROTOCOL (FIGMA/REACT)
+PROJECT STATUS: Project Nightingale Beta. Design MUST strictly adhere to Obsidian/Electric Cyan aesthetic (Vercel/Nvidia GUI style).
+
+I. CORE DESIGN THESIS & LAYOUT (FIGMA)
+The design must emulate a hyper-efficient, high-performance tactical dashboard focused on data density and low-latency readability.
+
+A. Aesthetic Protocol: Obsidian/Electric Cyan
+Element	Specification	Value	Figma Implementation
+Background (Primary)	Obsidian Black (Base)	#0A0A0A	Solid dark base layer, minimal texture.
+Data/Accent 1 (Primary)	Electric Cyan / Teal	#00C8FF	Used for active metrics, borders, chart lines, and hover states.
+Accent 2 (Warning/Risk)	Muted Neon Green	#39FF14	Used for CRITICAL/HIGH risk indicators and active terminal cursor.
+Typography	Primary: Inter (Semi-Bold for headers)	Sans-Serif	Ensures high legibility on dark background.
+Monospace (Code/Data)	JetBrains Mono or Fira Code	Monospace	Used for all NimScore values, IDs, and console outputs.
+Component Style	Zero-shadow, 1px low-opacity borders (Accent 1), sharp corners (optional 2px radius max).	Minimalist	Avoids 3D effects; focus on data integrity.
+B. Layout Structure: Dual-Mode Modular Grid
+The interface must be a dynamic, three-column grid optimized for 1920x1080 resolution.
+
+Left Pane (Navigation/Global Metrics): Persistent narrow column (approx. 15% width). Must display Mode Toggle (SPEAR / SHIELD) and key persistent metrics (e.g., Global NimScore, CMU Status: STREAMING).
+Central Pane (Working Area): Primary data view (approx. 65% width). Content changes based on Mode selection. Must be designed to host the Vector Forge node graph or the Control Bridge matrices.
+Right Pane (Console/Feedback/Log): Fixed log and input area (approx. 20% width). Must feature a Command Palette input field and a real-time system message log (> ALERT:).
+II. CORE COMPONENT & DATA SPECIFICATION (REPLIT/REACT)
+The Replit build must prioritize the instantiation and visual display of the platform’s unique data lexicon.
+
+A. Visualization Priority: CMU Data
+The primary display element must be the visual representation of Behavioral Susceptibility:
+
+Psycho-Exploitability Map Widget: A dynamic heat map visualization (preferably using a charting library like Recharts/Nivo) in the Central Pane. Colors must range from deep #0A0A0A (Low Susceptibility) to bright #39FF14 (CRITICAL Susceptibility).
+Data Requirement: Must visualize the correlation between Organizational Role (Y-Axis) and Key Bias Exploited (X-Axis).
+Metrics Blocks: Dedicated 1x1 widgets displaying the following values using Monospace font and Electric Cyan text:
+NimScore (vBETA) (e.g., 0.85)
+Exploitability Window (e.g., 86%)
+Behavioral Susceptibility Score (e.g., 0.80)
+B. Vector Forge Interface (SPEAR Mode)
+When SPEAR Mode is active, the Central Pane must display the modular build environment:
+
+Node Graph Simulation: Visual representation of an attack path (e.g., Email Node -> Click Node -> Credential Harvest Node). Nodes should be distinct, bordered in Cyan, and feature status indicators (e.g., SUCCESS (4 HARVESTS) in Neon Green).
+CMU Tuning Panel: A collapsible sidebar widget allowing selection of the Psychological Anchor (e.g., Urgency Bias) and display of the resulting Persuasion Coefficient (PC) (e.g., 0.79).
+C. SHIELD Mode Interface: Control Bridge
+When SHIELD Mode is active, the Central Pane must display the remediation and compliance structure:
+
+Human Patch Queue: A structured, filterable list of remediation tasks. Must visually differentiate Priority Levels (P1, P2, P3) using colored tags (P1: Neon Green, P3: Muted Cyan).
+Data Requirement: Each task must display the target bias (e.g., Target: Authority Bias) and the required control (e.g., NIST AT-2).
+Risk Drift Monitor Chart: A line graph tracking the historical performance of the NimScore (vBETA) over time, clearly indicating the Target NimScore line.
+III. MANDATORY LEXICON AND SYSTEM OUTPUTS
+The application must support the stylized rendering of system messages and lexicon:
+
+Element	Visual Representation	Example
+System Alert	Blockquote style, slightly lighter background shade.	> ALERT: deep-nimsec-v1 Calibration complete.
+IDs & Metrics	Inline code block, Monospace font.	NimScore (vBETA): 0.85
+Headers	Bolded, uppercase, using Cyan accent.	### SYSTEM HEALTH
+ACTION: Proceed with Figma design based on this aesthetic protocol. The Replit build must prioritize the modular grid structure and the accurate visualization of CMU-derived metrics.
+
+

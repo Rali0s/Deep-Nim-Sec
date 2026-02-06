@@ -1,0 +1,59 @@
+SPECTRUM OS: NIMv3 SOCIAL BEHAVIORAL CMU DATA SUMMARY
+DATA SET FOCUS: QUANTIFYING PSYCHOLOGICAL SUSCEPTIBILITY IN STRATEGIC INTERACTIONS
+The NIMv3 Social Behavioral CMU Data set is a proprietary collection of metrics and profiles derived from cognitive science and behavioral economics, specifically designed to quantify an individual or group's predictable deviation from rational decision-making in security contexts. It transforms abstract psychological concepts into measurable, exploitable vectors for SPEAR Mode, and actionable remediation plans for SHIELD Mode.
+
+I. CORE CMU DATA COMPONENTS
+The CMU (Cognitive Mapping Unit) data is structured around identifying and measuring specific cognitive shortcuts and biases, classifying them for adversarial simulation.
+CMU Data Component
+Description
+Unit of Measurement
+Integration Point
+Key Behavioral Bias
+The specific cognitive shortcut that causes systematic deviations from rationality (e.g., Loss Aversion, Authority Bias, Bandwagon Effect).
+Categorical ID (CMU-BETA-XXX)
+TTP Library Categorization
+Behavioral Susceptibility
+The measured propensity of a target individual/group to fall for a bias-driven pretext. Derived from historical data and organizational role mapping.
+Score (0.00 - 1.00)
+Input for NimScore++ Calculation
+NIMv3 Severity Multiplier
+A constant weight applied to the NimScore based on the inherent danger of the bias (e.g., Overconfidence is $2.5\times$ base risk).
+Multiplier (1.0x - 2.5x)
+Proprietary deep-nimsec-v1 Engine
+Psychological Anchor
+The specific influence trigger used to exploit the bias (e.g., Urgency for Loss Aversion; Executive Mandate for Authority).
+Categorical Tag (e.g., Cialdini Principle)
+Vector Forge Script Tuning
+II. CLASSIFICATION OF SOCIAL BEHAVIORAL VULNERABILITIES
+The NIMv3 framework groups social and self-serving biases that govern strategic interaction and group compliance, providing the basis for sophisticated Counter-SE strategies.
+CMU Classification
+Key Bias Included
+Core Behavioral Mechanism
+Security Implication
+Compliance & Conformity
+Authority Bias, Bandwagon Effect, In-Group Bias.
+Tendency to defer to perceived experts or follow the majority, overriding critical evaluation.
+Critical Risk: Enables mass adoption of malicious behavior (herding) or uncritical acceptance of high-risk instructions.
+Self-Assessment Distortion
+Overconfidence Bias, Dunning-Kruger Effect, Self-serving Bias.
+Miscalibration of personal abilities, leading to aggressive risk-taking or bypassing standard controls.
+Critical Risk: High incidence of technical policy violation due to misplaced confidence (e.g., attempting a complex bypass of security protocols).
+Framing & Reference Dependence
+Loss Aversion, Framing Effect, Sunk Cost Fallacy.
+Decisions driven by how outcomes are presented (gains vs. losses) relative to a reference point, rather than objective reality.
+High Risk: Exploitable via pretexting that frames compliance as avoiding a consequence (loss) rather than achieving a benefit (gain).
+III. DATA UTILIZATION IN SPECTRUM OS
+The CMU data is essential for enabling the platform's core dual-mode functionality:
+SPECTRUM OS Mode
+CMU Data Role
+Deliverable Format (CRIS)
+SPEAR Mode (Offense)
+Provides the Persuasion Coefficient (PC), ensuring simulations have high psychological fidelity and accurately predict success rates.
+TTP Library Integration (Exploitation TTPs)
+SHIELD Mode (Defense)
+Determines the required Behavioral Inoculation Blueprint (Human Patch Queue), moving training away from generic topics to targeted debiasing techniques.
+NIMScore++ Remediation Blueprint
+SecOps Integration
+Enriches technical alerts with behavioral context via the NIM-STREAM API, allowing Blue Teams to prioritize risks based on the human root cause.
+NIM-STREAM Record (NSR)
+SUMMARY: The NIMv3 Social Behavioral CMU Data is the proprietary intelligence layer that allows SPECTRUM OS to quantify the human element of cyber risk, moving beyond simple technical vulnerabilities to analyze and counteract predictable cognitive weaknesses.
